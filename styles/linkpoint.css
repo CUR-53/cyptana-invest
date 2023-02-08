@@ -1,0 +1,33 @@
+.linkpoint_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(119deg, #0000a4, #5858c9);
+}
+
+.linkpoint_container h3 {
+  font-size: 40px;
+  font-weight: normal;
+  color: #fff;
+
+  letter-spacing: 1px;
+}
+
+.linkpoint_container button {
+  width: 197px;
+  height: 45px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--darkorange-);
+
+  font-weight: normal;
+  color: #fff;
+
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}

@@ -1,0 +1,81 @@
+/* -------- DESKTOP -------- */
+
+@media only screen and (min-width: 600px) {
+  /* header */
+  header {
+    height: 30vh;
+  }
+
+  /* Navigations menu */
+  nav {
+    height: 10vh;
+  }
+
+  .nav_container {
+    padding: 0 60px;
+  }
+
+  .nav_container ul {
+    display: flex;
+    gap: 30px;
+  }
+
+  /* Burgermenu icon */
+  .burgermenu_icon {
+    display: block;
+  }
+
+  /* Burgermenu */
+  .burgermenu_container.active {
+    top: 0;
+    height: 100vh;
+    display: block;
+    z-index: 1000;
+  }
+
+  /* Hero section */
+  .hero_text_box {
+    margin-top: 20px;
+  }
+
+  /* Gallery section */
+  .gallery_header_container button {
+    margin-top: 20px;
+    margin-left: -30px;
+  }
+
+  .gallery_container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /*  Slider */
+  .slider_section {
+    height: 500px;
+    margin-bottom: 90px;
+  }
+
+  .slider img {
+    height: 536px;
+  }
+
+  .slider_img_text {
+    width: max-content;
+    left: 50px;
+    bottom: 30px;
+  }
+
+  .slider_img_text p {
+    max-width: 600px;
+  }
+
+  /* Contact */
+  .contact_section {
+    margin-bottom: 20px;
+  }
+
+  /* Footer */
+  .footer_container {
+    width: 95%;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
